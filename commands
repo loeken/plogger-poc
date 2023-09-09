@@ -1,0 +1,2 @@
+docker build -t plogger-image .
+echo "Test message" | docker run -i plogger-image ./bin/plogger
